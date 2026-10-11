@@ -24,7 +24,7 @@ public class NinjabrainBotHttpServer implements IDisposable {
 
 	private HttpServer httpServer;
 	private ApiV1HttpHandler apiV1HttpHandler;
-	private ExecutorService executorService;
+	private ExecutorService executorService	;
 	private Exception error;
 
 	public NinjabrainBotHttpServer(IDataState dataState, IDomainModel domainModel, InformationMessageList informationMessageList, NinjabrainBotPreferences preferences) {
